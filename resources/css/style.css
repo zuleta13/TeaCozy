@@ -21,15 +21,11 @@ header {
   border-bottom: 1px solid seashell;
   height: 69px;
   width: 100%;
+  z-index: 3;
+  background-color: inherit;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-main,
-footer {
-  position: relative;
-  top: 69px;
 }
 
 header .logo {
@@ -47,4 +43,30 @@ header nav span {
 
 header a {
   color: inherit;
+}
+
+/* MAIN CONTAINER */
+
+main,
+footer {
+  position: relative;
+  top: 70px;
+}
+
+/* TOP SECTION */
+
+.top-section {
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  background-image: url(../media/img-mission-background.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top-section h2,
+.top-section h4 {
+  background-color: black;
+  padding: 15px 0;
 }
