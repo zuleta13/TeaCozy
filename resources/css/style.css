@@ -151,3 +151,27 @@ footer {
 .location p {
   padding: 15px 0;
 }
+
+/* FOOTER */
+footer {
+  width: 100%;
+}
+footer .info{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info h4 {
+  padding-bottom: 20px;
+}
+
+.info h5 {
+  padding-top: 20px;
+}
+
+footer .copyright {
+  text-align: left;
+  padding-left: 20px;
+}
